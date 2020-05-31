@@ -9,3 +9,10 @@ Aby móc przesyłać floaty przez UART, trzeba wejść w Properties -> Propertie
 Po skompilowaniu, należy wgrać plik hex na płytkę, używając np. STM32 ST-Link Utility. Powinien się znajdować w folderze Debug.
 
 UART jest skonfigurowany na przesyłanie z baud rate 115200. Trzba pamiętać, żeby to zmienić np. w Putty.
+
+### Podłączenie czujników
+Czujnik temperatury i wilgotności -> D7
+
+Czujnik wilgotności gleby - pin analogowy -> A0
+
+Czujnik intensywności światła -> A1
