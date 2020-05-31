@@ -28,7 +28,8 @@ Arduino:
 * Light intensity -> A0
 
 #### USB serial configuration
-Port is configured to automatically recognize STM boards. If you want to use arduino or you can't connect with STM you need to change manually COM port inside `read_data.py` file. `ser = serial.Serial(serial_port, 115200)` just change serial_port to your COM port.
+Port is configured to automatically recognize STM boards. If you want to use arduino or you can't connect with STM you need to change manually COM port inside `read_data.py` file. `ser = serial.Serial(serial_port, 115200)` just change serial_port to your COM port. 
+After changes you can't run `.exe` file. You need to install all needed python packages and run `main.py`
 ## Python application
 If your serial output looks similar to this: 
 `T24 L8 H45 S34`(T - temperature, L - light, H - air humidity, S - soil humidity) you can just run `Plant station.exe` file inside `Plant_station_python` dir.
